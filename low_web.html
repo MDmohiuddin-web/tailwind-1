@@ -5,10 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <html lang="en" data-theme="light"></html>
     <title>Hockey’s</title>
 </head>
 <body>
+    <!-- this is nsv div is start  -->
+    <div class="w-4/5 m-auto my-10   py-3">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"></path></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a class="font-bold text-lg text-[#FF4240]">Home</a></li>
+                    <li><a class="font-medium text-[16px]">About</a></li>
+                    <li><a class="font-medium text-[16px]">Pages</a></li>
+                    <li><a class="font-medium text-[16px]">Blog</a></li>
+                    <li><a class="font-medium text-[16px]">Contact</a></li>
+                </ul>
+            </div>
+            <a class="font-extrabold text-2xl lg:text-3xl">Hockey<span class="text-[#FF4240]">’</span>s</a>
+            </div>
+            <div class="navbar-center hidden hover:text-green-500 lg:flex">
+            <ul class="menu menu-horizontal px-1 ">
+                <li><a class="font-bold text-lg text-[#FF4240]">Home</a></li>
+                <li><a class="font-medium text-[16px]">About</a></li>
+                <li><a class="font-medium text-[16px]">Pages</a></li>
+                <li><a class="font-medium text-[16px]">Blog</a></li>
+                <li><a class="font-medium text-[16px]">Contact</a></li>
+            </ul>
+            </div>
+            <div class="navbar-end w-60  flex justify-center items-center">
+               
+                <h2><i class='bx bx-search relative -left-5  text-center'></i></h2>
+            <a class="btn lg:px-6 bg-[#FF4240;] lg:text-lg font-semibold text-white">Get Ticket</a>
+            </div>
+        </div>
+    </div>
+    <!-- this is nsv div is end  -->
+
+    <!-- this is banar  start-->
+    <div class="relative w-4/5 m-auto mb-14">
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="./Image/1.png" class="w-full lg:h-full h-56">
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle  lg:w-12 h-3 w-6">❮</a> 
+                <a href="#slide2" class="btn btn-circle  lg:w-12 h-3 w-6">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="./Image/1.png" class="w-full lg:h-full h-56">
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle  lg:w-12 h-3 w-6">❮</a> 
+                <a href="#slide3" class="btn btn-circle  lg:w-12 h-3 w-6">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+                <img src="./Image/1.png" class="w-full lg:h-full h-56">
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle  lg:w-12 h-3 w-6">❮</a> 
+                <a href="#slide4" class="btn btn-circle  lg:w-12 h-3 w-6">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full rounded-2xl">
+                <img src="./Image/1.png" class="w-full lg:h-full h-56">
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle  lg:w-12 h-3 w-6">❮</a> 
+                <a href="#slide1" class="btn btn-circle lg:w-12 h-3 w-6">❯</a>
+                </div>
+            </div>
+            
+        </div>
+        <!-- meet-section-start -->
+        <div class="bg-[#131318] text-white mt-3 lg:w-[480px] lg:absolute bottom-10 right-10 rounded-lg lg:p-7 p-3">
+            <h2 class="lg:font-extrabold font-bold text-lg text-xl">Meet all the heroes from the field</h2>
+            <p class="font-medium text-sm opacity-70 pt-3">Dit amet consectetur. Condimentum dignissim adipiscing mama aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+            </div>
+    </div>
+    <!-- this is banar end -->
+
+
     <!-- this is text div Professional Hockeys Club is start  -->
     <div class="w-4/5  m-auto my-5 text-center border-y-2 border-dashed border-black border-opacity-10">
         <h2 class="text-4xl font-bold">Professional Hockeys Club</h2>
@@ -97,6 +176,83 @@
              dolor. Purus urna in sit nullam proin. </p>
     </div>
 <!-- this is text div Professional Our  is end -->
+
+<!-- Our New Products card section  start-->
+<div class="w-4/5 m-auto lg:mt-20 mt-10 grid lg:grid-cols-2 grid-cols-1 gap-5">
+    <!-- images-01 -->
+    <div class="flex border-y-2 border border-black border-opacity-10  lg:flex-row flex-col w-full  items-center  gap-4  pl-4 py-5 rounded-xl">
+        <div>
+            <img src="./Image/5.png" class="lg:w-full lg:h-full w-64 h-52" alt="">
+        </div>
+        <div>
+        <p class=" flex gap-5 pb-3 text-[rgba(19, 19, 24, 0.50)]"><span><i class="fa-solid fa-star text-[#f99808] pr-2"></i>5.0</span> <span><i class="fa-regular fa-eye pr-2"></i>20</span> <span><i class="fa-regular fa-heart pr-2"></i>200</span></p>
+        <h3 class="font-extrabold text-xl">World Cup Flags Football</h3>
+        <p class="font-medium text-[16px] opacity-80 py-2">Dolor sit amet consectetur. Ut urna <br> diam quis sagittis.</p>
+        <p><span class="font-extrabold pr-2 text-lg text-[#FF4240]">Price - $22.00</span> <span class="font-medium text-[16px] opacity-85"><i class="fa-solid fa-cart-shopping pr-1"></i>Delivery Fee:Free</span></p>
+        </div>
+    </div>
+    <!-- images-02 -->
+    <div class="flex border-y-2 border border-black border-opacity-10  lg:flex-row flex-col w-full  items-center  gap-4  pl-4 py-5 rounded-xl">
+        <div>
+            <img src="./Image/6.png" class="lg:w-full lg:h-full w-64 h-52" alt="">
+        </div>
+        <div>
+        <p class=" flex gap-5 pb-3 text-[rgba(19, 19, 24, 0.50)]"><span><i class="fa-solid fa-star text-[#f99808] pr-2"></i>5.0</span> <span><i class="fa-regular fa-eye pr-2"></i>20</span> <span><i class="fa-regular fa-heart pr-2"></i>200</span></p>
+        <h3 class="font-extrabold text-xl">World Cup Flags Football</h3>
+        <p class="font-medium text-[16px] opacity-80 py-2">Dolor sit amet consectetur. Ut urna <br> diam quis sagittis.</p>
+        <p><span class="font-extrabold pr-2 text-lg text-[#FF4240]">Price - $22.00</span> <span class="font-medium text-[16px] opacity-85"><i class="fa-solid fa-cart-shopping pr-1"></i>Delivery Fee:Free</span></p>
+        </div>
+    </div>
+    <!-- images-03 -->
+    <div class="flex border-y-2 border border-black border-opacity-10  lg:flex-row flex-col w-full  items-center  gap-4  pl-4 py-5 rounded-xl">
+        <div>
+            <img src="./Image/7.png" class="lg:w-full lg:h-full w-64 h-52" alt="">
+        </div>
+        <div>
+        <p class=" flex gap-5 pb-3 text-[rgba(19, 19, 24, 0.50)]"><span><i class="fa-solid fa-star text-[#f99808] pr-2"></i>5.0</span> <span><i class="fa-regular fa-eye pr-2"></i>20</span> <span><i class="fa-regular fa-heart pr-2"></i>200</span></p>
+        <h3 class="font-extrabold text-xl">World Cup Flags Football</h3>
+        <p class="font-medium text-[16px] opacity-80 py-2">Dolor sit amet consectetur. Ut urna <br> diam quis sagittis.</p>
+        <p><span class="font-extrabold pr-2 text-lg text-[#FF4240]">Price - $22.00</span> <span class="font-medium text-[16px] opacity-85"><i class="fa-solid fa-cart-shopping pr-1"></i>Delivery Fee:Free</span></p>
+        </div>
+    </div>
+    <!-- images-04 -->
+    <div class="flex border-y-2 border border-black border-opacity-10  lg:flex-row flex-col w-full  items-center  gap-4  pl-4 py-5 rounded-xl">
+        <div>
+            <img src="./Image/8.png" class="lg:w-full lg:h-full w-64 h-52" alt="">
+        </div>
+        <div>
+        <p class=" flex gap-5 pb-3 text-[rgba(19, 19, 24, 0.50)]"><span><i class="fa-solid fa-star text-[#f99808] pr-2"></i>5.0</span> <span><i class="fa-regular fa-eye pr-2"></i>20</span> <span><i class="fa-regular fa-heart pr-2"></i>200</span></p>
+        <h3 class="font-extrabold text-xl">World Cup Flags Football</h3>
+        <p class="font-medium text-[16px] opacity-80 py-2">Dolor sit amet consectetur. Ut urna <br> diam quis sagittis.</p>
+        <p><span class="font-extrabold pr-2 text-lg text-[#FF4240]">Price - $22.00</span> <span class="font-medium text-[16px] opacity-85"><i class="fa-solid fa-cart-shopping pr-1"></i>Delivery Fee:Free</span></p>
+        </div>
+    </div>
+    <!-- images-05 -->
+    <div class="flex border-y-2 border border-black border-opacity-10  lg:flex-row flex-col w-full  items-center  gap-4  pl-4 py-5 rounded-xl">
+        <div>
+            <img src="./Image/9.png" class="lg:w-full lg:h-full w-64 h-52" alt="">
+        </div>
+        <div>
+        <p class=" flex gap-5 pb-3 text-[rgba(19, 19, 24, 0.50)]"><span><i class="fa-solid fa-star text-[#f99808] pr-2"></i>5.0</span> <span><i class="fa-regular fa-eye pr-2"></i>20</span> <span><i class="fa-regular fa-heart pr-2"></i>200</span></p>
+        <h3 class="font-extrabold text-xl">World Cup Flags Football</h3>
+        <p class="font-medium text-[16px] opacity-80 py-2">Dolor sit amet consectetur. Ut urna <br> diam quis sagittis.</p>
+        <p><span class="font-extrabold pr-2 text-lg text-[#FF4240]">Price - $22.00</span> <span class="font-medium text-[16px] opacity-85"><i class="fa-solid fa-cart-shopping pr-1"></i>Delivery Fee:Free</span></p>
+        </div>
+    </div>
+    <!-- images-06 -->
+    <div class="flex border-y-2 border border-black border-opacity-10  lg:flex-row flex-col w-full  items-center  gap-4  pl-4 py-5 rounded-xl">
+        <div>
+            <img src="./Image/10.png" class="lg:w-full lg:h-full w-64 h-52" alt="">
+        </div>
+        <div>
+        <p class=" flex gap-5 pb-3 text-[rgba(19, 19, 24, 0.50)]"><span><i class="fa-solid fa-star text-[#f99808] pr-2"></i>5.0</span> <span><i class="fa-regular fa-eye pr-2"></i>20</span> <span><i class="fa-regular fa-heart pr-2"></i>200</span></p>
+        <h3 class="font-extrabold text-xl">World Cup Flags Football</h3>
+        <p class="font-medium text-[16px] opacity-80 py-2">Dolor sit amet consectetur. Ut urna <br> diam quis sagittis.</p>
+        <p><span class="font-extrabold pr-2 text-lg text-[#FF4240]">Price - $22.00</span> <span class="font-medium text-[16px] opacity-85"><i class="fa-solid fa-cart-shopping pr-1"></i>Delivery Fee:Free</span></p>
+        </div>
+    </div>
+</div>
+<!-- Our New Products card section eb=nd-->
 
 
 <!-- this is text div Clients Question is start  -->
@@ -193,7 +349,7 @@
     border-y-2 border-dashed border-black border-opacity-10">
         <h2 class="text-4xl font-bold">Social Media</h2><br>
         <div class="flex gap-5">
-        <img src="./icon/1 (7).png" alt="" class="w-[50px] h-[50px]">
+        <img src="./icon/1 (7).png" alt="" class="w-[50px] h-[50px]  ">
         <img src="./icon/1 (8).png" alt="" class="w-[50px] h-[50px]">
         <img src="./icon/1 (9).png" alt="" class="w-[50px] h-[50px]">
         <img src="./icon/1 (16).png" alt="" class="w-[50px] h-[50px]">
